@@ -1,5 +1,5 @@
 # GHM-YOLO
-## Offcial implementation of "GHM-YOLO: An efficient detection model for classroom student behavior".
+## Offcial implementation of "PBENet: Progressive Behavior-Aware Enhancement for Fine-Grained Student Behavior Detection".
 
 ![pipeline](./GHM-YOLO_files/model.png)
 ## 1. Dependencies
@@ -13,12 +13,12 @@ pip install ultralytics
 ## 2. Usage
 ### 2.1 Data preparation
 
-![pipeline](./GHM-YOLO_files/dataset.png)
+![pipeline](./PBENet_files/dataset.png)
 
 We built a self-collected dataset named SCAR-7D (Student Classroom Activity Recognition Dataset with 7 Classes) to evaluate the generalization of our model in real classroom environments.
 The dataset contains 100 lecture videos recorded under strict privacy compliance, covering pre-class, in-class, and post-class periods. Representative keyframes were extracted using a local-extrema frame-difference method (computed every 24 frames), filtering out irrelevant or low-variation frames. After preprocessing, 5,477 high-quality keyframes were obtained and carefully annotated with LabelImg into seven categories of classroom behaviors: reading/writing, using mobile phone, looking down, lying on desk, looking up, turning head, and standing.
 ## 3. Results
-![pipeline](./GHM-YOLO_files/P-R_curve.png)
+![pipeline](./PBENet_files/P-R_curve.png)
 mAP@0.5 is the core indicator.
 
 |     Model      | SCB-Dataset3-S | SCAR-7D | 
