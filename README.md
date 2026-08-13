@@ -1,7 +1,7 @@
 # PBENet
 ## Offcial implementation of "PBENet: Progressive Behavior-Aware Enhancement for Fine-Grained Student Behavior Detection".
 
-![pipeline](./GHM-YOLO_files/model.png)
+![pipeline](./PBENet_files/model.png)
 ## 1. Dependencies
 Install the `ultralytics` package, including all [requirements](https://github.com/ultralytics/ultralytics/blob/main/pyproject.toml), in a [**Python>=3.8**](https://www.python.org/) environment with [**PyTorch>=1.8**](https://pytorch.org/get-started/locally/).
 
