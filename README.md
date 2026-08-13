@@ -23,7 +23,7 @@ mAP@0.5 is the core indicator.
 
 |     Model      | SCB-Dataset3-S | SCAR-7D | 
 | :------------: | :-------: | :---------: | 
-|    GHM-YOLO    |   76.5%   |    72.3%    | 
+|    PBENet    |   76.5%   |    72.3%    | 
 
 ## Acknowledgment
 The paper is under review and now needs to be kept confidential.
