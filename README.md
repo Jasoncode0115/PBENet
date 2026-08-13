@@ -1,4 +1,4 @@
-# GHM-YOLO
+# PBENet
 ## Offcial implementation of "PBENet: Progressive Behavior-Aware Enhancement for Fine-Grained Student Behavior Detection".
 
 ![pipeline](./GHM-YOLO_files/model.png)
